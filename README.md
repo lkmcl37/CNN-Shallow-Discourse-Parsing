@@ -1,6 +1,6 @@
 This project aims to build discourse relation classifiers for gold argument pairs in PDTB with neural network approaches. 
 
-This project implements two kinds of neural networks for experiments:
+This project implements two kinds of neural networks:
 
 #Two-CNN Text Relation Classifier
 Structure: 
@@ -11,4 +11,5 @@ Structure:
 *L2 regularization is applied to prevent overfitting. 
 
 #Two-LSTM Text Relation Classifier
+
 The structure is exactly the same as two-CNN’s, except the convolutional layers are replaced by Bi-directional LSTM cells, and there is no batch normalization layer.
