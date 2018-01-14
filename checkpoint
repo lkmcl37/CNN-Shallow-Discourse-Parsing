@@ -1,0 +1,2 @@
+model_checkpoint_path: "twoLSTM_10_model.ckpt"
+all_model_checkpoint_paths: "twoLSTM_10_model.ckpt"
